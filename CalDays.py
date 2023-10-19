@@ -16,6 +16,7 @@ if __name__ == "__main__":
     date1 = input("Enter the first date (DD-MM-YYYY): ")
     date2 = input("Enter the second date (DD-MM-YYYY): ")
     
+    
     # Result 
     days_difference = days_between_dates(date1, date2)
     print(f"The number of days between {date1} and {date2} is {days_difference} days.")
