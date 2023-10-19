@@ -9,7 +9,7 @@ def days_between_dates(date1: str, date2: str) -> int:
     da2 = datetime.strptime(date2, "%d/%m/%Y").date()
     
     # Returning the absolute difference in days
-    return ab((da2 - da1).days)
+    return abs((da2 - da1).days)
 
 if __name__ == "__main__":
     # User input 
